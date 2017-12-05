@@ -624,6 +624,43 @@ cur = cur->right;
 		return left;
 	}
 
+	/*
+	* whether an increasing subsequence of length 3 exists or not in the array
+	*/
+	bool increasingTriplet(vector<int>& nums) {
+		int m1 = INT_MAX;
+		int m2 = INT_MAX;
+		bool result = false;
+		for (int a : nums) {
+			if (m1 >= a) {
+				m1 = a;
+			} else if (m2 >= a) {
+				m2 = a;
+			} else {
+				result = true;
+				break;
+			}
+		}
+		return result;
+	}
+
+	/*
+	* find the length of longest increasing subsequence
+	*/
+	int lengthOfLIS(vector<int>& nums) {
+		vector<int> dp(nums.size(), 1);
+		int res = 0;
+		for (int i = 0; i < nums.size(); i++) {
+			for (int j = 0; j < i; j++) {
+				if (nums[i] > nums[j]) {
+					dp[i] = max(dp[i], dp[j] + 1);
+				}
+			}
+			res = max(res, dp[i]);
+		}
+		return res;
+	}
+
 private:
 	void make_graph(vector<pair<int, int>>& prerequisites, vector<unordered_set<int>>& graph) {
 		for (auto pre : prerequisites) {
