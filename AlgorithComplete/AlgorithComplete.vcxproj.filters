@@ -117,5 +117,29 @@
     <ClCompile Include="canIWin.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="aoti.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bottomLeft.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stockWithCooldown.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="addTwoNumber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sumOfBit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="elimateNumer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="validAna.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="flattenTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -115,16 +115,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AddParentheses.cpp" />
+    <ClCompile Include="addTwoNumber.cpp" />
+    <ClCompile Include="aoti.cpp" />
     <ClCompile Include="bipartite_match.cpp" />
+    <ClCompile Include="bottomLeft.cpp" />
     <ClCompile Include="Calculate.cpp" />
     <ClCompile Include="canIWin.cpp" />
     <ClCompile Include="ContainsDuplicate.cpp" />
     <ClCompile Include="count_rang_Sum.cpp" />
     <ClCompile Include="detectCapital.cpp" />
     <ClCompile Include="DFS.cpp" />
+    <ClCompile Include="elimateNumer.cpp" />
     <ClCompile Include="FindDisApeared.cpp" />
     <ClCompile Include="findMoode.cpp" />
     <ClCompile Include="FiveBuze.cpp" />
+    <ClCompile Include="flattenTree.cpp" />
     <ClCompile Include="greedy_interval_schedule.cpp" />
     <ClCompile Include="greedy_interval_schedule_with_weight.cpp" />
     <ClCompile Include="independent_set.cpp" />
@@ -143,9 +148,12 @@
     <ClCompile Include="sortCharacter.cpp" />
     <ClCompile Include="sortedArrayToBST.cpp" />
     <ClCompile Include="stable_match.cpp" />
+    <ClCompile Include="stockWithCooldown.cpp" />
     <ClCompile Include="SubtreeSum.cpp" />
     <ClCompile Include="SumCloest.cpp" />
+    <ClCompile Include="sumOfBit.cpp" />
     <ClCompile Include="surroundedRegions.cpp" />
+    <ClCompile Include="validAna.cpp" />
     <ClCompile Include="WordSearch.cpp" />
     <ClCompile Include="WordSearch2.cpp" />
   </ItemGroup>
